@@ -1,7 +1,7 @@
 {
   "version": "0.3.21",
   "notes": "- Text Replies waits for you when you are already in the conversation. If you texted someone in\n  the last half hour, the card for their next text waits up to 10 minutes for your own answer, and\n  no card comes if you answer first.\n- In a group text, each person's messages get their own card. A new text from one person no\n  longer pulls someone else's messages into a card under their name.\n- A promise you make in a text goes on Commitment Keeper's list as a to-do that starts with what\n  to do, like \"Send the invoice\", and the same promise is listed once.\n- Your agent keeps a correction or a rule for next time when you say it, like \"from now on, just\n  call me Sam\", instead of only answering \"got it\". When you correct something it already\n  remembers, it asks before changing it.\n- Ask your agent to change something it remembers, and it replaces the old note instead of\n  keeping both.\n- Answer a Package Tracker notice, or an email reply you told your agent to send later, and it\n  knows which one you mean. A late package notice also says to tell it if the package already\n  came.\n- With a Mistral account, Balanced now runs the same model as Best, because Mistral is retiring\n  the one Balanced used. Balanced costs less there than it did.\n- Fixed: with a Google account on Balanced, what Archie said your agent had spent read low.",
-  "pub_date": "2026-11-24T18:32:06Z",
+  "pub_date": "2026-11-24T19:16:21Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZHAyY2hJWHA0Zm1ENC90OHlyTTdKeHQ2OUhqT0k0eGt2UWxERHEyRWhLcndXYkZnSEQwcEtWKzd1MDhPY1RjOHVLVWdlMjEyNzNWK1RFZCt0N2MwV3hCWHFLT2NvZlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ1MDI4CWZpbGU6QXJjaGllLmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMjEKd2Q3SDNsZmJFcmxHM2Vsc2xHK0hIdUwwcmJmNTBIbDhJakkwZnR4eldpVFIyVXpGUnlVTWNJU256aEhybHdHSU5CaWswTi9ra3ZLazkvN091NUlIQXc9PQo=",
@@ -10,6 +10,10 @@
     "darwin-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZHAyY2hJWHA0Zm1ENC90OHlyTTdKeHQ2OUhqT0k0eGt2UWxERHEyRWhLcndXYkZnSEQwcEtWKzd1MDhPY1RjOHVLVWdlMjEyNzNWK1RFZCt0N2MwV3hCWHFLT2NvZlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ1MDI4CWZpbGU6QXJjaGllLmFwcC50YXIuZ3oJdmVyc2lvbjowLjMuMjEKd2Q3SDNsZmJFcmxHM2Vsc2xHK0hIdUwwcmJmNTBIbDhJakkwZnR4eldpVFIyVXpGUnlVTWNJU256aEhybHdHSU5CaWswTi9ra3ZLazkvN091NUlIQXc9PQo=",
       "url": "https://github.com/Otian-AI/archie-releases/releases/download/v0.3.21/Archie_0.3.21_universal.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZHAyY2hJWHA0ZmppUkpiNjZKeDZVdjYzM2QwU0dEVWtUVXdXTkF1b1psOCsvMjRCaEEzWVg0MHpkTWRXM2k5L1FObVhOL21mZGRORWVNSGpOZytxSVVPbHltQXA4VGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ3NjM5CWZpbGU6QXJjaGllXzAuMy4yMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjIxClZkQjNUUzdHTFdqTFBOeURuaWJxd2pmZU5GcUJGdTBZZm13VXFocitqcHBPcVZhSFVSOVlLVXkyV3NCaDZNdHBSdDJnNUNyYzNKcjlOdHJSWEJnOUFnPT0K",
+      "url": "https://github.com/Otian-AI/archie-releases/releases/download/v0.3.21/Archie_0.3.21_x64-setup.exe"
     }
   }
 }
